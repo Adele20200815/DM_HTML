@@ -26,13 +26,14 @@ div#Tab a {
 width :50px;
 margin : 10px;
 text-align: center; 
-   padding: 10px 5px; margin: 0 0 1px; 
-   text-decoration: none; color: black;}
+   padding: 5px 10px; margin: 0 0 1px; 
+   text-decoration: none; color: black;
+   }
 
 div#Tab a:hover {
-	color: rgb(126, 13, 13); 
+	color: rgb(77, 14, 14); 
 	background-color: windowframe;
-	text-decoration: none;
+	
 }
 
 div#Tab a span  {
@@ -40,18 +41,16 @@ display : block;
 position : absolute;
 top : 200px;
 margin : auto;
-text-decoration: none;
+
 width:600px;
 height : 500px;
 z-index : 1000px;
-background-color: rgb(255, 255, 255);
-
+background-color: white;
+opacity: 0.0;
 }
 
 div#Tab a:hover span {
-
-z-index : 1;
-
+	opacity: 1;	
 }
 
 .small {
